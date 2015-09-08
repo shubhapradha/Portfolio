@@ -1,151 +1,124 @@
 @import url("http://weloveiconfonts.com/api/?family=maki");
 
-body {  
+body {
 	color: #747704;
-	font-family: 'Raleway', sans-serif;
+	font: 14px "Raleway", sans-serif;
 }
 
-@media screen and (max-width: 330px) { 
+@media screen and (max-width: 330px) {
 	h2 {
 		font-size: 16px;
 	}
-  
+
 	h3 {
-		font-size:14px;
+		font-size: 14px;
 	}
-  
+
 	.header-txt {
 		font-size: 12px;
-    }
-  
+	}
+
 	figcaption {
-		font: 14px;
-		text-align:center;
-		line-height:0.75em;
+		font: 14px/0.75em "Raleway", sans-serif;
+		text-align: center;
 	}
 }
 
-	@media screen and (max-width: 565px) { 
-		h2 {
-			font-size: 18px;
-		}
-  
-		h3 {
-			font-size:16px;
-		}
-  
-		.header-txt {
-			font-size: 12px;
-		}
-  
-		figcaption {
-			font-size: 16px;
-			text-align:center;
-			line-height:0.75em;
-		}
+@media screen and (min-width: 330px) {
+	h2 {
+		font-size: 16px;
 	}
+
+	h3 {
+		font-size: 14px;
+	}
+
+	.header-txt {
+		font-size: 12px;
+	}
+
+	figcaption {
+		font: 14px/0.75em "Raleway", sans-serif;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 565px) {
+	h2 {
+		font-size: 18px;
+	}
+		
+	h3 {
+		font-size: 16px;
+	}
+
+	.header-txt {
+		font-size: 12px;
+	}
+
+	figcaption {
+		font: 16px/0.75em "Raleway", sans-serif;
+		text-align: center;
+	}
+}
 
 
 /* Small devices (tablets, 768px and up) */
-	@media screen and (max-width: 768px) { 
-		h2 {
-			font-size: 24px;
-		}
-
-		h3 {
-			font-size:18px;
-		}
-
-		.header-txt {
-			font-size: 12px;
-		}
-
-		figcaption {
-			font-size: 18px;
-			text-align:center;
-			line-height:1em;
-		}
+@media screen and (min-width: 768px) {
+	h2 {
+		font-size: 24px;
 	}
 
-	@media screen and (min-width: 768px) {
-		figcaption {
-			text-align:center;
-			font-size: 18px;
-			line-height:1em;
-		}
+	h3 {
+		font-size: 18px;
 	}
 
-	/* Header */
-	header {
-		margin: 0 auto;
-		font-family: 'Raleway', sans-serif;
-		color: #747704;  
-		border-bottom: 3px solid #bcbbbb;
-		margin-bottom: 16px;
+	.header-txt {
+		font-size: 12px;
 	}
-	
+
+	figcaption {
+		font: 18px/1em "Raleway", sans-serif;
+		text-align: center;
+	}
+}
+
+/* Header */
+header {
+	margin: 0 auto 16px 0;
+	font-family: "Raleway", sans-serif;
+	color: #747704;
+	border-bottom: 3px solid #bcbbbb;
+}
+
 	/* maki */
-	[class*="maki-"]:before {
-		font-family: 'maki', sans-serif;
-		font-size: 5em;
-		color: #f8981c; 
+[class*="maki-"]:before {
+	font-family: "maki", sans-serif;
+	font-size: 5em;
+	color: #f8981c;
+}
+
+/* Main Content */
+img {
+		max-width: 100%;
 	}
 
-	/* Main Content */
-	img {
-		max-width:100%;
-	}
+.link-project {
+	color: #747704;
+	text-align: center;
+	font-size: 0.75em;
+	margin-top: -10px;
+}
 
-	figcaption a {
-		color: #747704;
-		text-align:center;
-		font-size:0.75em;
-		margin-top: -10px;;
-	}
+.thumb {
+	margin-bottom: 30px;
+}
 
-	article h2 {
-		color : #bcbbbb;
-		font-family: 'Raleway', sans-serif;
-	}
+.thumbnail-border {
+	border-style: hidden;
+}
 
-	.thumb {
-		margin-bottom:30px;
-	}
+.txt-right {
+	text-align: right;
+}
 
-	.thumbnail-border {
-		border-style:hidden;
-	}
-
-	.txt-right {
-		text-align: right;
-	}
-
-	/* Left Panel */
-	.boxes {
-		margin:8em auto 0 auto;
-	}
-
-	.boxes p {
-		line-height: 12px;
-	}
-
-	.orange-box {
-		width:50%;
-		height: 4em;
-		background: #f8981c;
-		margin-bottom: 15px;
-	}
-
-	.light-gray-box {
-		width:50%;
-		height: 4em;
-		background: #bcbbbb;
-		margin-bottom: 15px;
-	}
-
-	.dark-gray-box {
-		width:50%;
-		height: 4em;
-		background: #747704;
-		margin-bottom: 15px;
-	}
